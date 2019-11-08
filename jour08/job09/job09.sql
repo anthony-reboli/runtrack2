@@ -1,0 +1,1 @@
+SELECT * FROM etudiants WHERE year(CURRENT_DATE) - year('naissance') < '18' 
